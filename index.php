@@ -27,7 +27,7 @@
                     <?=$value["email"];?>
                 </td> 
                 <td style='display:flex; justify-content:center; gap: 0.5rem'>
-                    <a style='background-color: aqua; border-radius: 1rem; padding: .5rem; text-decoration: none' href="update_action.php?id=<?=$value['id'];?>">Editar</a>
+                    <a style='background-color: aqua; border-radius: 1rem; padding: .5rem; text-decoration: none' href="update.php?id=<?=$value['id'];?>">Editar</a>
                     <a style='background-color: red; border-radius: 1rem; padding: .5rem; text-decoration: none' href="delete_action.php?id=<?=$value['id'];?>" onclick="return confirm('Remover usuário?')">Excluir</a>
                 </td>   
             </tr>

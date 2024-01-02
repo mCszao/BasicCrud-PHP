@@ -29,7 +29,7 @@ if($id){
 ?>
 
 <h1>Editar usuário</h1>
-<form method="POST" action="update_action.php?id=<?=$id;?>" style="height: 80vh; display:flex; align-items: center; justify-content: center; flex-direction: column; gap: 5px;">
+<form method="POST" action="update.php?id=<?=$id;?>" style="height: 80vh; display:flex; align-items: center; justify-content: center; flex-direction: column; gap: 5px;">
     <label>Nome </br>
         <?php echo "<input type='text' name='name' value='$nameSelect'> "?>
     </label>
